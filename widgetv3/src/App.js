@@ -13,7 +13,7 @@ function App() {
         token: 'YOUR CLIENT TOKEN',
         products: ['auth','identity','balance','transactions', 'income'],
         selfieVerify: true, //in lowercase
-        onSuccess: function(data){
+        onSuccess: function(data){  
             console.log('options success', data)
         },
         onClose: function(){
