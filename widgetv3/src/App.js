@@ -7,12 +7,12 @@ function App() {
 
     Okra.buildWithOptions({
         name: 'Peter the Builder',
-        env: 'sandbox',
+        env: 'production_sandbox',
         app_id: '',// app_id from your app builder
         key: '5aa2bcb4-a198-5c20-8d69-7dcf78207755', 
         token: '5da6358130a943486f33dced',
         products: ['auth','identity','balance','transactions', 'income'],
-        //selfieVerify: true, //in lowercase
+        selfieVerify: true, //in lowercase
         onSuccess: function(data){
             console.log('options success', data)
         },
