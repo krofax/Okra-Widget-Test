@@ -9,8 +9,8 @@ function App() {
         name: 'Peter the Builder',
         env: 'production_sandbox',
         app_id: '',// app_id from your app builder
-        key: '5aa2bcb4-a198-5c20-8d69-7dcf78207755', 
-        token: '5da6358130a943486f33dced',
+        key: 'YOUR KEY', 
+        token: 'YOUR CLIENT TOKEN',
         products: ['auth','identity','balance','transactions', 'income'],
         selfieVerify: true, //in lowercase
         onSuccess: function(data){
