@@ -10,8 +10,8 @@ function App() {
         env: 'production',
         app_id: '',// app_id from your app builder
         //key: 'e5ac7db7-be2c-50e5-b75a-e3715a67587e', //Sandbox
-        key: 'cda13f17-3910-50db-b49f-204b25c012c0',//prod
-        token: '5da6358130a943486f33dced',
+        key: 'xxxxxxxxx',//prod
+        token: 'xxxxxxx',
         callback_url:"https://webhook.site/c2de8555-39a3-4062-8c78-08d425756071",
         clientName:"client",
         products: ['auth','transactions'],
