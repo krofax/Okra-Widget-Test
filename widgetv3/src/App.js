@@ -7,12 +7,22 @@ function App() {
 
     Okra.buildWithOptions({
         name: 'Peter the Builder',
-        env: 'production_sandbox',
+        env: 'production',
         app_id: '',// app_id from your app builder
-        key: 'YOUR KEY', 
-        token: 'YOUR CLIENT TOKEN',
-        products: ['auth','identity','balance','transactions', 'income'],
-        selfieVerify: true, //in lowercase
+        //key: 'e5ac7db7-be2c-50e5-b75a-e3715a67587e', //Sandbox
+        key: 'cda13f17-3910-50db-b49f-204b25c012c0',//prod
+        token: '5da6358130a943486f33dced',
+        callback_url:"https://webhook.site/c2de8555-39a3-4062-8c78-08d425756071",
+        clientName:"client",
+        products: ['auth','transactions'],
+  //       payment: true,
+  //       charge: {
+  //       type: 'one-time',
+  //       amount: 100, //user will be prompted to enter amount
+  //       currency: 'NGN', //supports 'NGN'
+  //       account: '5f450b2689a23801307c8b5b'// Your companies Okra account id
+  // },
+        //selfieVerify: true, //in lowercase
         onSuccess: function(data){  
             console.log('options success', data)
         },
